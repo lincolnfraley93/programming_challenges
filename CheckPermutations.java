@@ -1,7 +1,6 @@
 /**
- * Question 1.1 in 'Cracking the Coding Interview'
- * "Given two strings, write a method to decide if one is a permutation
- * of the other."
+ * Given two strings, determine if they are permutations of one
+ * another.
  * 
  * @author Lincoln Fraley
  * December 26, 2015
