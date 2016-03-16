@@ -12,7 +12,6 @@ public class CheckPermutations {
 				if (string1.length() != string2.length()) {
 						return false;
 				} else {
-						//Index in string2, of char in string1
 						for (int i=0; i<string1.length(); i++) {
 							if (string2.indexOf(string1.charAt(i))==-1) {
 								return false;
