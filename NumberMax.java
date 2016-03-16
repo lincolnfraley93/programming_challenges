@@ -10,13 +10,9 @@ public class NumberMax {
 				return (Math.abs(a-b)+(a+b))/2;
 		}
 	
-	public static void main(String[] args) 
-	{
-		int a = 7;
-		int b = 7;
-		
-		System.out.println(max(a, b));
-
-	}
-
+		public static void main(String[] args) {
+				int a = 7;
+				int b = 2;
+				System.out.println(max(a, b));
+		}
 }
