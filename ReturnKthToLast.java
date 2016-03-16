@@ -8,12 +8,11 @@
  */
 public class ReturnKthToLast {
 		public static int returnKthToLast(Node head, int k) {
-				System.out.println(k);
 				Node current = head;
 				while (k>=0) {
 						current = current.getNext();
 						if (current==null) {
-								System.out.format("List contains less than %d elements.%n", k);
+								System.out.println("List contains less than k elements.");
 								System.exit(0);
 						}
 						k--;
@@ -34,7 +33,7 @@ public class ReturnKthToLast {
 			}
 			System.out.println("Full list:");
 			linked_list.printList();
-			System.out.format("2nd to last element: %d%n", returnKthToLast(linked_list, 6));
+			System.out.format("2nd to last element: %d%n", returnKthToLast(linked_list, 2));
 	}
 
 }
