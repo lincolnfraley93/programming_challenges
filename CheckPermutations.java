@@ -10,8 +10,6 @@ public class CheckPermutations {
 		public static boolean check_permutation(String string1, String string2) {
 				string1 = string1.replaceAll("\\s+", "").toLowerCase();
 				string2 = string2.replaceAll("\\s+", "").toLowerCase();
-				System.out.println(string1);
-				System.out.println(string2);
 				if (string1.length() != string2.length()) {
 						return false;
 				} else {
