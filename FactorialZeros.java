@@ -1,5 +1,4 @@
-/**
- * 
+/** 
  * Write a function which computes the number of trailing zeros in
  * n!.
  * 
@@ -20,8 +19,6 @@ public class FactorialZeros  {
 			for (int i=1; i<=20; i++) {
 					n=n*i;
 					System.out.format("%d!: %d; number of zeros: %d%n", i, n, zeros(i));
-//					System.out.print(i + " factorial: " + n + ", ");
-//					System.out.println("num of zeros: " + zeros(i));
 			}
 	}
 
